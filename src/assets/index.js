@@ -17,13 +17,20 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.svg";
+import tailwind from "./tech/tailwind.png"; 
+import nextjs  from "./tech/nextjs.png";
+import aws  from "./tech/aws.png";
+import redis  from "./tech/redis.png";
+import supabase  from "./tech/supabase.jpeg";
+import threejs  from "./tech/threejs.svg";
 
 import holopin from "./holopin.png";
 import hf from "./hf.svg";
 import bny from "./bny.png";
 import headstarter from "./headstarter.jpeg";
+import tiers1 from "./tiers.jpeg";
+import triwebapi from "./triwebapi.jpeg";
+import vanar from "./vanar.jpeg";
 import quantumstech from "./quantumstech.png";
 import crm from "./crm.png";
 import tiers from "./tiers.png";
@@ -77,8 +84,12 @@ export {
   nodejs,
   reactjs,
   tailwind,
+  nextjs, aws, redis, supabase,
   threejs,
+  tiers1,
+  triwebapi,
   headstarter,
+  vanar,
   quantumstech,
   crm,
   tiers,

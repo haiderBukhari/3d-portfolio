@@ -15,7 +15,7 @@ const Hero = () => {
   const textRef=useRef();
   useEffect(()=>
   {
-    init(textRef.current, { showCursor: true, strings: ['Founder QuantumsTech', 'Full Stack Developer', '2x Hackathon Winner', "Blockchain Enthusiast"] })
+    init(textRef.current, { showCursor: true, strings: ['Full Stack Developer', 'Founder QuantumsTech', '2x Hackathon Winner', "Blockchain Enthusiast"] })
   },[]);
 
   return (

@@ -1,6 +1,6 @@
 import {
-  javascript, html, css, reactjs, tailwind, nodejs, mongodb, git, threejs,
-  hf, bny, headstarter, holopin,
+  javascript, html, css, reactjs, nextjs, aws, redis, supabase, tailwind, nodejs, mongodb, git, threejs,
+  hf, bny, headstarter, vanar, tiers1, triwebapi, holopin,
   clg, quantumstech, crm, tiers, tazkiyah, school,
   project1, project3, eventdapp, project4, project5, kipp, project2, oop, yml, crud, dwld, onetomany,
   trie, ds, cg,
@@ -46,6 +46,38 @@ const achievements = [
 
 const technologies = [
   {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs
+  },
+  {
+    name: "AWS",
+    icon: aws
+  },
+  {
+    name: "Redis",
+    icon: redis
+  },
+  {
+    name: "Supabase",
+    icon: supabase
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -57,46 +89,26 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "Bootstrap",
-    icon: "https://img.icons8.com/color/480/000000/bootstrap.png",
-  },
-  {
-    name: "Google Cloud",
-    icon: "https://img.icons8.com/color/480/000000/google-cloud.png",
-  },
-  {
-    name: "C++ tool",
-    icon: "https://img.icons8.com/color/480/000000/c-plus-plus-logo.png",
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Bootstrap",
+  //   icon: "https://img.icons8.com/color/480/000000/bootstrap.png",
+  // },
+  // {
+  //   name: "Google Cloud",
+  //   icon: "https://img.icons8.com/color/480/000000/google-cloud.png",
+  // },
+  // {
+  //   name: "C++ tool",
+  //   icon: "https://img.icons8.com/color/480/000000/c-plus-plus-logo.png",
+  // },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "MySql",
-    icon: "https://img.icons8.com/color/480/000000/mysql-logo.png",
-  },
+  // {
+  //   name: "MySql",
+  //   icon: "https://img.icons8.com/color/480/000000/mysql-logo.png",
+  // },
 ];
 
 const list = [
@@ -450,60 +462,44 @@ const experiences = [
     link: "www.quantumstech.com",
   },
   {
-    title: "DSA Mentor",
-    company_name: "GeeksforGeeks (Intern)",
-    icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
+    title: "Web3 Builder",
+    company_name: "Vanar",
+    icon: vanar,
     iconBg: "#E6DEDD",
-    date: "May 2022 - Apr 2023",
+    date: "June 2024 - August 2024",
     link: "",
     points: [
-      "Teaching Assistant : Teaching Assistant for online batches of Data Structures, Algorithms, and Competitive programming with an average rating of 4.9*.",
-      "Responsible for reviewing and writing articles based on Data Structures and Algorithms.",
+      "Building NFT Marketplace and deploying to vanar chain.",
     ],
     link: "https://drive.google.com/drive/folders/1efpnfKpRTvtujtSgHwRIJdrMFiWrBFHt",
   },
   {
-    title: "Technical Content Writer",
-    company_name: "GeeksforGeeks",
-    icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
+    title: "Full Stack Developer",
+    company_name: "Tiers Limited",
+    icon: tiers1,
     iconBg: "#383E56",
-    date: "Dec 2020 - July 2022",
+    date: "May 2024 - June 2024",
     link: "",
     points: [
-      "Creative and experienced content writer with 2+ years of experience.",
-      "Attracted over 10000+ visitors to the company website with powerful educational content.",
-      "Wrote 100+ articles and improved 300+ articles on topics like Data Structures, Algorithms, Mathematics and related engineering topics",
+      "Building Roboust MERN Stack Applications.",
+      "Working with NextJS, MERN to build Coin Mining Platform.",
     ],
     link: "https://auth.geeksforgeeks.org/user/_shinchancode",
   },
   {
-    title: "Google Cloud Training",
-    company_name: "Google Cloud",
-    icon: "https://img.icons8.com/fluency/344/google-cloud.png",
+    title: "MERN Stack Intern",
+    company_name: "TriwebAPI",
+    icon: triwebapi,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Apr 2021",
+    date: "Aug 2023 - Nov 2023",
     link: "",
     points: [
-      "Introduction to GCP and more functionalities with free access to quests, skill badges.",
-      "Collaborating with cross-functional technologies.",
-      "Got introduced to Computing, Application Development, Big Data and Machine Learning using Google Cloud's on training platform Qwiklabs",
-      "Additional self-paced labs were provided to practice on Qwiklabs a platform by Google",
+      "Worked on MERN STACK, Typescript, SQL, and Agile Project Management tools like jira for efficiency and productivity.",
+      "Attending daily scrum meeting for progress of tasks"
     ],
     link: "https://www.cloudskillsboost.google/public_profiles/48dcd029-03b4-437b-9dd3-ef7d65958eb0",
   },
-  {
-    title: "Hacktoberfest",
-    company_name: "GitHub",
-    icon: hf,
-    iconBg: "#E6DEDD",
-    date: "Oct (2020 - 2022)",
-    link: "",
-    points: [
-      "Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR).",
-      "GitHub hosts many open source repositories that contribute to this event.",
-    ],
-    link: "https://dev.to/shinchancode",
-  },
+
 ];
 
 const educations = [
