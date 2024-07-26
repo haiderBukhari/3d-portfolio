@@ -270,25 +270,25 @@ export const mernProjects = [
     source_code_link: "https://github.com/haiderBukhari/Tazkiyah-",
   },
   {
-    name: "OOP Lab",
+    name: "STOREYS CRM",
     description:
-      "These projects contain object oriented programming primary concepts and its code in Java language. Topics like : Inheritence, Constructor, Virtual function, Interface, Exception Handling, Generic Programming and File Handling etc.",
+      "In tis CRM I have developed multiple functionalities including uploading leads, managing complex leads, maintaining proper hirarchey, creating performance dashboard and analytics dashboard for company employees.",
     tags: [
       {
-        name: "java",
+        name: "crm",
         color: "blue-text-gradient",
       },
       {
-        name: "oop",
+        name: "leads",
         color: "green-text-gradient",
       },
       {
-        name: "coding",
+        name: "fullstack",
         color: "pink-text-gradient",
       },
     ],
     image: crm,
-    source_link: "https://github.com/shinchancode/Object-Oriented-Programming-Lab",
+    source_link: "http://www.storeysuae.com/",
     source_code_link: "https://github.com/shinchancode/Object-Oriented-Programming-Lab",
   },
 ];
@@ -338,29 +338,6 @@ export const cProject = [
     source_link: "https://next-js-project1-wxmi.vercel.app/",
     source_code_link: "https://github.com/haiderBukhari/NextJS-project/",
   },
-  {
-    name: "Computer Graphics Lab",
-    description:
-      "These projects contain computer graphics topics like : Line Drawing Algorithm (DDA and Bresenham), Bresenham circle drawing, Polygon filling, 2D transformation, Cohen Sutherland polygon clipping and Bezier curve.",
-    tags: [
-      {
-        name: "computergraphics",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "C++",
-        color: "green-text-gradient",
-      },
-      {
-        name: "semester",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: cg,
-    source_link: "https://github.com/shinchancode/Computer-Graphics",
-    source_code_link: "https://github.com/shinchancode/Computer-Graphics",
-  },
-
 ];
 
 export const webProject = [

@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="footer text-center">
         <p> 
           &#x3c;&#47;&#x3e; with ❤️ by
-          <a href="https://shinchancode.github.io/3d-react-portfolio/" target="_blank">
+          <a href="https://github.com/haiderbukhari" target="_blank">
             {" "}
-            Aarti Rathi
+            Haider Bukhari
           </a>
           😎
         </p>
