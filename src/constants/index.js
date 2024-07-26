@@ -2,7 +2,7 @@ import {
   javascript, html, css, reactjs, tailwind, nodejs, mongodb, git, threejs,
   hf, bny, headstarter, holopin,
   clg, quantumstech, crm, tiers, tazkiyah, school,
-  project1, project3, project4, project5, kipp, project2, oop, yml, crud, dwld, onetomany,
+  project1, project3, eventdapp, project4, project5, kipp, project2, oop, yml, crud, dwld, onetomany,
   trie, ds, cg,
   port_3d, jsp, chitchat, notes, react1,
   be, sql, mini, snl, fastnuces, fic
@@ -107,6 +107,10 @@ const list = [
   {
     id: "Next",
     title: "Next JS",
+  },
+  {
+    id: "Blockchain",
+    title: "Web3 Blockchain",
   },
   {
     id: "C++",
@@ -289,7 +293,7 @@ export const mernProjects = [
     ],
     image: crm,
     source_link: "http://www.storeysuae.com/",
-    source_code_link: "https://github.com/shinchancode/Object-Oriented-Programming-Lab",
+    source_code_link: "https://github.com/haiderBukhari/STOREYS-Frontend",
   },
 ];
 
@@ -342,208 +346,77 @@ export const cProject = [
 
 export const webProject = [
   {
-    name: "3D React Portfolio",
+    name: "Tetris Game",
     description:
-      "Created an impressive website made using React with 3D graphics and animations to bring their content to life. Responsive webpage is made with user friendly interface",
+      "I have created a version of Tetris using SFML graphics in C++ that includes several additional features such as bombs, line destruction, a menu, score display, and a block suggestion feature.",
     tags: [
       {
-        name: "TailwindCSS",
+        name: "tetris",
         color: "blue-text-gradient",
       },
       {
-        name: "ThreeJS",
+        name: "games",
         color: "green-text-gradient",
       },
       {
-        name: "3d_react",
+        name: "sfml",
         color: "pink-text-gradient",
       },
     ],
-    image: port_3d,
-    source_link: "https://shinchancode.github.io/3d-react-portfolio/",
-    source_code_link: "https://github.com/shinchancode/3d-react-portfolio",
+    image: '',
+    video: "https://res.cloudinary.com/djunaxxv0/video/upload/v1722018990/w9hwadevbfsgn6t4xbqb.mp4",
+    source_link: "",
+    source_code_link: "https://github.com/haiderBukhari/Space-Shooter-Game",
   },
   {
-    name: "React portfolio",
+    name: "Space Shooter Game",
     description:
-      "Website made using React in the FrontEnd, Nodejs and Express in the BackEnd. Responsive webpage is made with user friendly interface",
+      "I have developed Space Shooter Game using the SFML library, featuring multiple levels with increasing difficulty, where the player controls a spaceship, battles enemy monsters, and avoids obstacles. ",
     tags: [
       {
-        name: "nodejs",
+        name: "shooter",
         color: "blue-text-gradient",
       },
       {
-        name: "React",
+        name: "game",
         color: "green-text-gradient",
       },
       {
-        name: "html css",
+        name: "sfml",
         color: "pink-text-gradient",
       },
     ],
+    video: 'https://res.cloudinary.com/djunaxxv0/video/upload/v1722016516/epcgrtjib8z6kmmtfq8q.mp4',
     image: react1,
-    source_link: "https://shinchancode.github.io/React-Portfolio/",
-    source_code_link: "https://github.com/shinchancode/React-Portfolio",
+    source_link: "",
+    source_code_link: "https://github.com/haiderBukhari/Tetris-Game-C-",
   },
-  {
-    name: "30 Days of JavaScript",
-    description:
-      "Website made using Nodejs and Express in the BackEnd. A 30 Days Of JavaScript challenge to learn JavaScript by making 30 different projects using some famous JavaScript libraries.",
-    tags: [
-      {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "30dayschallenge",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jsp,
-    source_link: "https://rathi-30-days-of-javascript.onrender.com/",
-    source_code_link: "https://github.com/shinchancode/30-Days-of-Javascript",
-  },
-  {
-    name: "Chit Chat Application",
-    description:
-      "Real-Time, event based communication in Nodejs and browser-based Chat application. Uses Socket.io for implementation for WebSockets protocol. This application built using Node.js, Express, Socket.io and Render (Hosting)",
-    tags: [
-      {
-        name: "Chatting",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "socket.io",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: chitchat,
-    source_link: "https://chit-chat-app.onrender.com/",
-    source_code_link: "https://github.com/shinchancode/Chit-Chat-Real_time_chat_app",
-  },
-  {
-    name: "Notes Application",
-    description:
-      "A web-based notes app made by using javaScript, This web-based notes app having functionalities like Drag and drop, Search notes etc.",
-    tags: [
-      {
-        name: "notes",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: notes,
-    source_link: "https://shinchancode.github.io/Notes-App/",
-    source_code_link: "https://github.com/shinchancode/Notes-App",
-  },
+
 ];
 
 export const otherProject = [
   {
-    name: "Multilingual Multiple Choice Question Generation",
+    name: "EventHub",
     description:
-      "Final Year Project : Its a low level and high level model where we automate the process of creating objective question assessment using LSTM(at low level) and Transformer(at high level) models for multiple languages.",
+      "EventHub is a Decentralized Event Application developed as a part of MetaSchool Hackathon. It is an innovative platform leverages cutting-edge technology to revolutionize the way events are organized and managed.",
     tags: [
       {
-        name: "machine learning",
+        name: "blockchain",
         color: "blue-text-gradient",
       },
       {
-        name: "multilingual",
+        name: "smartcontracts",
         color: "green-text-gradient",
       },
       {
-        name: "BE_Project",
+        name: "hackathon",
         color: "pink-text-gradient",
       },
     ],
-    image: be,
-    source_link: "https://drive.google.com/drive/folders/1LECu5ENk_zsowbPeRN_R1V8Rf2Gp7N6l",
-    source_code_link: "https://github.com/shinchancode/Final-Year-Project",
+    image: eventdapp,
+    source_link: "https://www.linkedin.com/posts/mhaiderbukhari_hey-everyone-hows-it-going-we-are-activity-7160689977675112451-M98e?utm_source=share&utm_medium=member_desktop",
+    source_code_link: "https://github.com/haiderBukhari/Metaschool-Event-Application-R2W3",
   },
-
-  {
-    name: "DBMS Lab",
-    description:
-      "Semester 4 : DBMS Lab. Topics included: ER/EER Diagram, DDL statements, primary key and foreign key constraint., SQL queries with different functions, Views, PL/SQL, Trigger (Row level and statement level) and cursor.",
-    tags: [
-      {
-        name: "MySql",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "dbms",
-        color: "green-text-gradient",
-      },
-      {
-        name: "semester",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: sql,
-    source_link: "https://github.com/shinchancode/DBMS-SQL-Lab",
-    source_code_link: "https://github.com/shinchancode/DBMS-SQL-Lab",
-  },
-  {
-    name: "SQL : Library Management System",
-    description:
-      "Semester 4 : DBMS Mini Project. Created a library management system using SQL and different functionalities.",
-    tags: [
-      {
-        name: "sql",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "management",
-        color: "green-text-gradient",
-      },
-      {
-        name: "miniproject",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: mini,
-    source_link: "https://github.com/shinchancode/Mini-Project-SQL-LibraryManagement",
-    source_code_link: "https://github.com/shinchancode/Mini-Project-SQL-LibraryManagement",
-  },
-  {
-    name: "Pyhton : Snake and Ladder",
-    description:
-      "Snake and Ladder game using python language. A simple command line interface snake and ladder game",
-    tags: [
-      {
-        name: "snake and ladder",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "python",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CLI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: snl,
-    source_link: "https://github.com/shinchancode/MINI_PROJECT-Snake-and-Ladder",
-    source_code_link: "https://github.com/shinchancode/MINI_PROJECT-Snake-and-Ladder",
-  },
-
 ];
 
 const experiences = [

@@ -36,16 +36,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_6y5vft7',
-        'template_5g175sf',
+        'service_xosubss',
+        'template_ihwvkan',
         {
           from_name: form.name,
-          to_name: "Aarti Rathi",
+          to_name: "Haider Bukhari",
           from_email: form.email,
-          to_email: "aarti.rathi1710@gmail.com",
+          to_email: "haider100xdev@gmail.com",
           message: form.message,
         },
-        'FMQ4a1hK5NSAkumfj',
+        'l9RZB0BioGqk8i7A8',
       )
       .then(
         () => {

@@ -5,6 +5,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import eventdapp from "./eventdapp.png";
 
 import github from "./github.png";
 import demo from "./demo.png"
@@ -66,6 +67,7 @@ export {
   creator,
   mobile,
   web,
+  eventdapp,
   github,
   css,
   git,
