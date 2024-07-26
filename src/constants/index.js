@@ -1,5 +1,5 @@
 import {
-  javascript, html, css, reactjs, nextjs, aws, redis, supabase, tailwind, nodejs, mongodb, git, threejs,
+  javascript, typescript, html, css, reactjs, nextjs, aws, redis, supabase, tailwind, nodejs, mongodb, git, threejs,
   hf, bny, headstarter, vanar, tiers1, triwebapi, holopin,
   clg, quantumstech, crm, tiers, tazkiyah, school,
   project1, project3, eventdapp, project4, project5, kipp, project2, oop, yml, crud, dwld, onetomany,
@@ -88,6 +88,10 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "Typescript",
+    icon: typescript,
   },
   // {
   //   name: "Bootstrap",
