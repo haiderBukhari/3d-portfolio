@@ -140,7 +140,7 @@ const Contact = () => {
           </article>
           <article className="contact__option">
             <BsWhatsapp />
-            <a href="https://api.whatsapp.com/send/?phone=917040031669&text&app_absent=0&lang=en" target="_blank" className="blue-text-gradient">
+            <a href="https://api.whatsapp.com/send/?phone=447438690340&text&app_absent=0&lang=en" target="_blank" className="blue-text-gradient">
               +44 7438690340
             </a>
           </article>
