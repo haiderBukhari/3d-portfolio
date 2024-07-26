@@ -47,11 +47,10 @@ const Hero = () => {
           href="https://www.linkedin.com/in/mhaiderbukhari" target="_blank">
           <ImLinkedin />
         </a>
-        <a
+        {/* <a
           href="https://linktr.ee/rathi17" target="_blank">
           <BiLinkAlt />
-        </a>
-
+        </a> */}
       </div>
 
       </div>
