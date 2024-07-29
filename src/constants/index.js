@@ -198,8 +198,8 @@ export const mernProjects = [
       },
     ],
     image: project3,
-    source_link: "https://github.com/shinchancode/CRUD-Operation",
-    source_code_link: "https://github.com/shinchancode/CRUD-Operation",
+    source_link: "https://project-frontend-tree1.vercel.app/",
+    source_code_link: "https://github.com/haiderBukhari/linktree",
   },
   {
     name: "Scarlett Global",
@@ -242,7 +242,7 @@ export const mernProjects = [
       },
     ],
     image: quantumstech,
-    source_link: "www.quantumstech.com",
+    source_link: "https://www.quantumstech.com",
     source_code_link: "https://github.com/haiderBukhari/QuantumsTech",
   },
   {
