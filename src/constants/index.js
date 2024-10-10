@@ -154,7 +154,7 @@ export const mernProjects = [
       },
     ],
     image: project1,
-    source_link: "https://rental-mate-frontend.vercel.app",
+    source_link: "https://rentmyitem.com/",
     source_code_link: "https://github.com/haiderBukhari/Rental-Mate-Frontend",
   },
   {
@@ -198,7 +198,7 @@ export const mernProjects = [
       },
     ],
     image: project3,
-    source_link: "https://project-frontend-tree1.vercel.app/",
+    source_link: "https://egoapp.fr/",
     source_code_link: "https://github.com/haiderBukhari/linktree",
   },
   {
@@ -315,7 +315,7 @@ export const mernProjects = [
 
 export const cProject = [
   {
-    name: "Spell Checker",
+    name: "Legal Practice SaaS",
     description:
       "Kipp is Transforming Legal Practices with Custom AI Solutions by providing AI Chatbots, Automations, Workflows and Custom Platforms",
     tags: [
